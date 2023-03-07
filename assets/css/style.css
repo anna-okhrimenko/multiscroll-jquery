@@ -1,0 +1,70 @@
+.first-slide {
+    background-color: #cceff1;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.ms-left .second-slide {
+    background-image: url(../img/star_left.png);
+    background-size: cover;
+    background-position: center right;
+}
+
+.ms-right .second-slide {
+    background-image: url(../img/star_right.png);
+    background-size: cover;
+    background-position: center left;
+}
+
+.ms-left .fourth-slide {
+    background-image: url(../img/wood_left.png);
+    background-size: cover;
+    background-position: center right;
+}
+
+.ms-right .fourth-slide {
+    background-image: url(../img/wood_right.png);
+    background-size: cover;
+    background-position: center left;
+}
+
+.ms-section img {
+    width: 100%;
+}
+
+.btn-navigation {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, 0);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.move-navigation {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, 0);
+}
+
+.move-navigation button {
+    color: #f59425;
+    border: 2px solid #f59425;
+    margin: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 36px;
+    }
+}
